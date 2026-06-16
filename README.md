@@ -175,8 +175,12 @@ cd ChargeHub
 
 ---
 
-## Autor
-
-Pedro Henrique
+## Autores
+Eduardo Tasim
+Pedro Henrique Mansano Franzin
+Gabriel Darienzo
+João Pedro Cardnes
+Leonardo Balbino
+Lucas Lazarino
 
 Desenvolvido como projeto acadêmico voltado para mobilidade elétrica, monitoramento inteligente e sustentabilidade.
