@@ -1,186 +1,183 @@
-# ChargeHub ⚡
+# ⚡ ChargeHub
 
-## Sobre o Projeto
+Uma aplicação web desenvolvida em React para demonstrar uma plataforma de localização e monitoramento de estações de carregamento para veículos elétricos.
 
-O **ChargeHub** é um protótipo de plataforma voltada para a mobilidade elétrica, desenvolvido com foco na localização e gestão de estações de carregamento para veículos elétricos.
-
-A proposta do sistema é demonstrar como tecnologias digitais podem contribuir para a expansão da infraestrutura de recarga, oferecendo uma experiência intuitiva para usuários que dependem de pontos de carregamento em seu dia a dia.
-
-Além da localização de estações, o projeto apresenta conceitos de monitoramento inteligente e sustentabilidade, reforçando a importância da adoção de energias limpas e soluções voltadas para cidades inteligentes.
+O projeto foi criado com foco em mobilidade elétrica, sustentabilidade e experiência do usuário, apresentando uma interface moderna e intuitiva para visualização de pontos de recarga e conceitos de gerenciamento inteligente.
 
 ---
 
-## Objetivos
+## 📖 Sobre o Projeto
 
-- Facilitar a visualização de estações de carregamento.
-- Demonstrar conceitos de monitoramento inteligente.
-- Incentivar o uso de veículos elétricos.
-- Promover práticas sustentáveis.
-- Servir como base para futuras implementações com backend e integração de serviços reais.
+O ChargeHub é um protótipo front-end que simula uma rede inteligente de carregamento para veículos elétricos.
+
+A aplicação apresenta funcionalidades conceituais relacionadas à localização de estações, monitoramento de disponibilidade, sistema de reservas e práticas sustentáveis voltadas para cidades inteligentes.
+
+Seu objetivo é demonstrar como soluções digitais podem contribuir para a expansão da infraestrutura de mobilidade elétrica.
 
 ---
 
-## Tecnologias Utilizadas
+## ✨ Funcionalidades
+
+### 🏠 Página Inicial
+- Apresentação da plataforma
+- Visão geral dos principais recursos
+- Navegação entre as seções do sistema
+
+### 📍 Localização de Estações
+- Mapa ilustrativo de carregamento
+- Visualização de pontos de recarga distribuídos pela cidade
+- Demonstração de geolocalização conceitual
+
+### 📱 Monitoramento Inteligente
+- Status das estações em tempo real (conceitual)
+- Sistema de reserva de carregamento
+- Fluxo de utilização do serviço
+- Notificações de eventos e carregamento
+
+### 🌱 Sustentabilidade
+- Incentivo ao uso de energia limpa
+- Redução de emissões de CO₂
+- Benefícios ambientais da mobilidade elétrica
+
+---
+
+## 🛠 Tecnologias Utilizadas
 
 ### Front-end
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - React 18
 - ReactDOM 18
 - Babel Standalone
 
 ---
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```text
 ChargeHub/
 │
 ├── index.html
 ├── script.jsx
-└── style.css
+├── style.css
+└── README.md
 ```
 
 ### index.html
-
-Arquivo responsável pela estrutura principal da aplicação e carregamento das bibliotecas React.
+Responsável pela estrutura principal da aplicação e carregamento das bibliotecas React.
 
 ### script.jsx
-
-Contém toda a lógica da aplicação e os componentes responsáveis pela navegação entre as páginas.
+Contém toda a lógica da aplicação, gerenciamento de estado e componentes React.
 
 ### style.css
-
-Responsável pela identidade visual, responsividade, animações e estilização da interface.
-
----
-
-## Funcionalidades
-
-### Página Inicial
-
-Apresenta uma visão geral da plataforma e seus principais benefícios.
-
-### Localização de Estações
-
-Exibe um mapa ilustrativo contendo pontos de carregamento distribuídos pela cidade.
-
-### Monitoramento Inteligente
-
-Demonstra funcionalidades como:
-
-- Disponibilidade das estações;
-- Sistema de reservas;
-- Notificações de carregamento;
-- Monitoramento em tempo real.
-
-### Sustentabilidade
-
-Apresenta informações sobre:
-
-- Energia limpa;
-- Redução da emissão de poluentes;
-- Benefícios ambientais da mobilidade elétrica.
+Responsável pela estilização, responsividade, animações e identidade visual do sistema.
 
 ---
 
-## Arquitetura da Aplicação
+## 🏗 Arquitetura da Aplicação
 
 ```text
-┌─────────────────────┐
-│      index.html     │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│        App          │
-└──────────┬──────────┘
-           │
- ┌─────────┼─────────┐
- ▼         ▼         ▼
-Localização Monitor. Sustent.
+App
+│
+├── Home
+├── Localizacao
+├── Monitoramento
+└── Sustentabilidade
 ```
 
----
-
-## Fluxo de Navegação
-
-```text
-Início
-   │
-   ├── Localização
-   │
-   ├── Monitoramento
-   │
-   └── Sustentabilidade
-```
+A navegação é controlada através do estado React (`useState`), permitindo a troca dinâmica de páginas sem recarregamento.
 
 ---
 
-## Requisitos Funcionais
+## 🚀 Como Executar
 
-- Exibir informações sobre a plataforma.
-- Permitir navegação entre páginas.
-- Apresentar estações de carregamento.
-- Exibir conceitos de monitoramento inteligente.
-- Disponibilizar conteúdo relacionado à sustentabilidade.
-
----
-
-## Requisitos Não Funcionais
-
-- Interface responsiva.
-- Navegação intuitiva.
-- Compatibilidade com navegadores modernos.
-- Carregamento rápido da aplicação.
-
----
-
-## Melhorias Futuras
-
-- Integração com APIs de mapas.
-- Geolocalização em tempo real.
-- Cadastro e autenticação de usuários.
-- Sistema real de reservas.
-- Integração com banco de dados.
-- Dashboard administrativo.
-- Histórico de carregamentos.
-- Aplicação mobile.
-
----
-
-## Como Executar
-
-1. Clone o repositório:
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/Pedrao29072005/ChargeHub.git
 ```
 
-2. Acesse a pasta do projeto:
+### 2. Entre na pasta do projeto
 
 ```bash
 cd ChargeHub
 ```
 
-3. Abra o arquivo `index.html` em seu navegador.
+### 3. Abra o arquivo
+
+Abra o arquivo `index.html` em qualquer navegador moderno.
 
 ---
 
-## Status do Projeto
+## 🎨 Características da Interface
 
-🚧 Em desenvolvimento — atualmente disponível como protótipo front-end para demonstração de conceito.
+- Design moderno com Glassmorphism
+- Gradientes e efeitos visuais
+- Componentes responsivos
+- Navegação simples e intuitiva
+- Animações suaves para melhor experiência do usuário
 
 ---
 
-## Autores
-Eduardo Tasim
-Pedro Henrique Mansano Franzin
-Gabriel Darienzo
-João Pedro Cardnes
-Leonardo Balbino
-Lucas Lazarino
+## 📋 Requisitos Funcionais
 
-Desenvolvido como projeto acadêmico voltado para mobilidade elétrica, monitoramento inteligente e sustentabilidade.
+- Exibir informações da plataforma
+- Navegar entre as páginas da aplicação
+- Demonstrar pontos de carregamento
+- Apresentar funcionalidades de monitoramento
+- Exibir informações sobre sustentabilidade
+
+---
+
+## 📋 Requisitos Não Funcionais
+
+- Interface responsiva
+- Boa usabilidade
+- Compatibilidade com navegadores modernos
+- Baixo tempo de carregamento
+- Organização modular do código
+
+---
+
+## 🔮 Melhorias Futuras
+
+- Integração com APIs de mapas (Google Maps ou OpenStreetMap)
+- Geolocalização em tempo real
+- Backend para gerenciamento das estações
+- Cadastro e autenticação de usuários
+- Sistema real de reservas
+- Banco de dados para armazenamento de informações
+- Dashboard administrativo
+- Histórico de carregamentos
+- Aplicativo mobile
+
+---
+
+## 📚 Objetivos Acadêmicos
+
+Este projeto foi desenvolvido como atividade acadêmica com foco em:
+
+- Mobilidade elétrica
+- Sustentabilidade
+- Desenvolvimento Front-end
+- Interfaces interativas com React
+- Conceitos de cidades inteligentes
+
+---
+
+## 👥 Autores
+
+- Eduardo Tasim
+- Pedro Henrique Mansano Franzin
+- Gabriel Darienzo
+- João Pedro Cardnes
+- Leonardo Balbino
+- Lucas Lazarino
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido para fins acadêmicos e educacionais.
